@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="add.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="myDIV" class="header">
+        <h2>Мeeting</h2>
+        <input type="text" id="myInput" placeholder="Title...">
+        <span onclick="newElement()" class="addBtn">Добавить</span>
+        <span onclick="clearInput()" class="clearBtn">Очистить</span>
+    </div>
+
+    <ul id="myUL">
+
+        <li>
+            <p>Никита Новосельцев:</p>
+            <div class="check">
+                <input type="checkbox" id="check" name="check" checked>
+                <label for="check">
+                    <p class="status">На месте</p>
+                </label>
+            </div>
+            <div class="check">
+                <input type="checkbox" id="check" name="check" checked>
+                <label for="check">
+                    <p class="status">Отсутсвует</p>
+                </label>
+            </div>
+            <div class="check">
+                <input type="checkbox" id="check" name="check" checked>
+                <label for="check">
+                    <p class="status">Болеет</p>
+                </label>
+            </div>
+        </li>
+        <li>
+            <p>Алексей Бабайцев:</p>
+            <div class="check">
+                <input type="checkbox" id="check" name="check" checked>
+                <label for="check">
+                    <p class="status">На месте</p>
+                </label>
+            </div>
+            <div class="check">
+                <input type="checkbox" id="check" name="check" checked>
+                <label for="check">
+                    <p class="status">Отсутсвует</p>
+                </label>
+            </div>
+            <div class="check">
+                <input type="checkbox" id="check" name="check" checked>
+                <label for="check">
+                    <p class="status">Болеет</p>
+                </label>
+            </div>
+        </li>
+    </ul>
+</body>
+
+</html>
